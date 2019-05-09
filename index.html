@@ -55,7 +55,7 @@
             float heart(vec2 st){
 
             //位置とか形の調整
-            st = (st-vec2(0.8, 0.38))*vec2(1.9, 2.6);
+            st = (st-vec2(1.0, 0.38))*vec2(1.9, 2.6);
             float h = pow(st.x, 2.2)+pow(st.y - sqrt(abs(st.x)),1.8);
 
             return h;
